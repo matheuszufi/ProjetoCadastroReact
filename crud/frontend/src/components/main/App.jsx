@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 import Routes from './Routes'
 
@@ -11,11 +11,11 @@ import Nav from '../template/Nav'
 import Footer from '../template/Footer'
 
 export default props =>
-<HashRouter>
+<BrowserRouter>
 <div className="app">
     <Logo />
     <Nav />
     <Routes />
     <Footer />
 </div>
-</HashRouter>
+</BrowserRouter>
