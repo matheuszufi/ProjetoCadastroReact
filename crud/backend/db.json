@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "matheus",
-        "email": "matheuszufi@gmail.com"
-    },{
-        "id": 2,
-        "name": "Maria",
-        "email": "maria@gmail.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "matheus",
+      "email": "matheuszufi@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "email": "maria@gmail.com"
+    },
+    {
+      "name": "Matheus Zufi",
+      "email": "matheus_zufil@hotmail.com",
+      "id": 3
+    }
+  ]
 }
