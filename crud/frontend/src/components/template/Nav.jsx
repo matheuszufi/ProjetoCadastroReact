@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 export default props =>
 <aside className='menu-area'>
     <nav className="menu">
-        <Link href="/">
+        <Link to="/">
             Inicio
         </Link>
-        <Link href="/users">
+        <Link to="/users">
             Usuarios
         </Link>
     </nav>
