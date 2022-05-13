@@ -7,7 +7,6 @@ import Routes from './Routes'
 
 import Logo from '../template/Logo'
 import Nav from '../template/Nav'
-
 import Footer from '../template/Footer'
 
 export default props =>
